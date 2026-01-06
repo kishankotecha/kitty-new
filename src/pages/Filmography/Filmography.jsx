@@ -14,7 +14,7 @@ import ten from "../../assets/Home/ten.jpg";
 import eleven from "../../assets/Home/eleven.jpg";
 import twelve from "../../assets/Home/twelve.jpg";
 import { Typography } from '../../components/Typography';
-import './filmography.css';
+import './Filmography.css';
 
 const Filmography = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
