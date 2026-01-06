@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import Youtube1 from "../../assets/Home/YouTube01.jpg";
-import Youtube2 from "../../assets/Home/YouTube02.jpg";
-import Youtube3 from "../../assets/Home/YouTube03.jpg";
-import Youtube4 from "../../assets/Home/YouTube04.jpg";
-import Youtube5 from "../../assets/Home/YouTube05.jpg";
-import Youtube6 from "../../assets/Home/YouTube06.jpg";
-import Youtube7 from "../../assets/Home/YouTube07.jpg";
-import Youtube8 from "../../assets/Home/YouTube08.jpg";
+import Youtube1 from "../../assets/Home/Youtube01.jpg";
+import Youtube2 from "../../assets/Home/Youtube02.jpg";
+import Youtube3 from "../../assets/Home/Youtube03.jpg";
+import Youtube4 from "../../assets/Home/Youtube04.jpg";
+import Youtube5 from "../../assets/Home/Youtube05.jpg";
+import Youtube6 from "../../assets/Home/Youtube06.jpg";
+import Youtube7 from "../../assets/Home/Youtube07.jpg";
+import Youtube8 from "../../assets/Home/Youtube08.jpg";
 import PageContainer from "../../components/PageContainer";
 import { Typography } from '../../components/Typography';
 
