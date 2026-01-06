@@ -1,0 +1,140 @@
+
+@keyframes continuous-slide-down {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+
+@keyframes continuous-slide-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50%);
+    }
+}
+
+
+.animation-slide-down {
+    animation: continuous-slide-down 10s linear infinite;
+}
+
+.animation-slide-up {
+    animation: continuous-slide-up 10s linear infinite;
+}
+
+
+.filmography-container {
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.filmography-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow: hidden;
+    height: 200%; 
+    position: relative;
+}
+
+
+.filmography-column .filmography-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.filmography-image {
+    width: 160px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.view-more-button {
+    background-color: #CF000F;
+    color: white;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-more-button:hover {
+    background-color: white;
+    color: #CF000F;
+}
+.center-content {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10; /* Ensure it remains on top if there are any overlapping elements */
+  }
+/* Base container styling */
+.filmography-container {
+    padding: 20px;
+  }
+  
+  /* Section spacing */
+  .filmography-section {
+    transform: translateY(-70%); /* Adjust as needed */
+  }
+  
+  /* Image Carousel styling */
+  @media (max-width: 1024px) {
+    .image-carousel {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Add spacing between mobile sections */
+  
+@media (max-width: 768px) {
+    .animate-scroll {
+        animation: scroll 10s linear infinite;
+        white-space: nowrap; 
+        display: flex;
+    }
+
+    .scroll-container {
+        overflow: hidden; 
+        width: 100%; 
+    }
+
+  
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+ 
+    .flex-shrink-0 {
+        width: 100px; 
+        height: auto; 
+    }
+
+    
+    .scroll-container {
+        display: flex;
+        width: calc(100% * 5); 
+    }
+}
+
+  
